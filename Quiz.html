@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fun with Triangles</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html" >Is Triangle?</a>
+        <a href="Quiz.html" class="item-active">Quiz</a>
+        <a href="Hypotenuse.html" >Hypotenuse</a>
+        <a href="Area.html" >Area</a>
+    </nav>
+
+    <div class="flexContainer">
+        <h1>Quiz</h1>
+        <form class="quiz-form">
+            <div class="quizBox">
+                <p class="quizQ">What is the third angle for the triangle where angle1 = 50° and angle2 = 50°?</p>
+                <input required type="radio" name="option" value="70°" >70</input>
+                <input required type="radio" name="option" value="80°" >80</input>
+                <input required type="radio" name="option" value="45°" >45</input>
+            </div>
+
+            <div class="quizBox">
+                <p class="quizQ">What do you call a triangle whose all 3 sides are equal?</p>
+                <input required type="radio" name="options" value="isoceles" >Isoceles</input>
+                <input required type="radio" name="options" value="right-angled" >right-angled</input>
+                <input required type="radio" name="options" value="equilateral" >Equilateral</input>
+            </div>
+
+            <button id="submit-btn" class="quizBtn" type="submit">Submit Form</button>
+        </form>
+        <h3 id="quizScore"></h3>
+
+        
+
+
+    </div>
+
+
+    <script src="quiz.js"></script>
+</body>
+</html>

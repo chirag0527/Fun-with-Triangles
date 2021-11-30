@@ -1,0 +1,107 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: #e5e5f7;
+opacity: 1;
+background-image: radial-gradient(circle at center center, #888eff, #e5e5f7), repeating-radial-gradient(circle at center center, #888eff, #888eff, 10px, transparent 20px, transparent 10px);
+background-blend-mode: multiply;
+}
+
+a {
+	text-decoration: none;
+	font-size: 1rem;
+    padding: 1.5rem;
+    color: white;
+}
+
+a:hover, .isTriBtn:hover, .quizBtn:hover, .HypBtn:hover , .areaBtn:hover{
+    background-color: rgb(255, 171, 61) ;
+    background-blend-mode: overlay;
+    transition: all ease 0.4s;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+nav{
+	background: #41295a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+	padding: 1.5rem;
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+    width: 70vw;
+    border: 2px solid black;
+    margin-left: 15vw;
+    margin-top: 10vh;
+    background-color:gold;
+
+}
+
+.angleInput, .sideInput{
+    border: 2px solid blue;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-left: 1.2rem;
+    width: 20vw;
+    background-color: rgb(255, 234, 73);
+}
+
+
+
+.isTriBtn, .quizBtn, .HypBtn, .areaBtn{
+    font-size: 1rem;
+    padding: 0.7rem;
+    color: white;
+    border: none;
+    width: 10vw;
+    min-height: 7vh;
+    border-radius: 30px;
+    background: #41295a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.HypBtn, .areaBtn{
+    width: 18vw;
+
+}
+
+.item-active {
+	font-weight: bold;
+    background-color: rgb(255, 171, 61) ;
+}
+
+.quizBox{
+    border: 2px solid blue;
+    border-radius: 6px;
+    padding: 2rem;
+    min-width:50vw;
+    margin-bottom: 2rem;
+}
+
+.quizQ{
+    margin-bottom: 2rem;
+}
+
+.quizBtn{
+    width: 10rem;
+    margin-left: 22vw;
+}
+
+input{
+    margin: 0rem 1rem;
+}
+
